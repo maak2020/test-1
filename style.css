@@ -1,0 +1,37 @@
+/* Import google font  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+header{
+
+    width: 50%;
+}
+header .head {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+}
+header .head .title {
+    font-weight: 200;
+}
+header .head .sub-title {
+    font-weight: 600;
+}
+header .head  .txt{
+    font-size: 15px;
+    font-weight: 200;
+    width: 70%;
+}
